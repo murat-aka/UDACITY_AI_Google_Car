@@ -16,12 +16,8 @@ def sense(p, Z):
     #ADD YOUR CODE HERE
     q=[]
     for i in range(len(p)):
-        if(world[i]==Z):
-            p[i]=p[i]*pHit
-        else:
-            p[i]=p[i] * pMiss
-        
-        q.append(p[i])
+        hit=(world[i]==Z)
+        q.append(p[i] * (hit * pHit + (1-hit) * pMiss))
         
     return q
     #
