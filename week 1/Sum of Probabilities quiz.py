@@ -9,4 +9,4 @@ p[2]= p[2] * pHit
 p[3]= p[3] * pMiss
 p[4]= p[4] * pMiss
 
-
+print sum(p)
