@@ -20,5 +20,7 @@ def sense(p, Z):
     return q
 #
 #ADD YOUR CODE HERE
+for k in range(len(measurements)):
+    p=sense(p,measurements[k])
 #
 print p
