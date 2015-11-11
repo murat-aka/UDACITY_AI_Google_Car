@@ -5,7 +5,7 @@
 
 p=[0.2, 0.2, 0.2, 0.2, 0.2]
 world=['green', 'red', 'red', 'green', 'green']
-Z = 'red'
+Z = 'green'
 pHit = 0.6
 pMiss = 0.2
 
